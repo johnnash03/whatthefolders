@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+#container {
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    color: #3A3A3A;
+}
+.App {
+    font-size: 13px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 12px
+}
+
+.history-container {
+    display: flex;
+}
+
+.history-items {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.history-items::after {
+    content: "/";
+}
+
+.folder-pane {
+    padding: 40px 40px;
+}
+
+button {
+    background: white;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    padding: 7px 11px;
+    cursor: pointer;
+}
+
+#back-btn {
+    margin-right: 10px;
+}
+
+#new-folder-input {
+    margin-left: 10px;
+    padding: 5px 12px;
+    border: 1px solid #D7D7D7;
+}
+
+#folder-items-holder {
+    display: flex;
+    margin: 0 -5px;
+    padding: 30px;
+}
+
+.folder-item {
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+li {
+    padding: 2px;
+}
